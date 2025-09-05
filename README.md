@@ -1,4 +1,4 @@
-# 🦷 Predicting Periodontal Disease Using SVM
+# 🦷 Predicting Dental Caries Using Systemic Health Markers
 
 **Author:** Francisco Barbosa  
 **GitHub:** [@Tuminha](https://github.com/Tuminha)  
@@ -7,29 +7,32 @@
 
 ## Project Overview
 
-This project explores the potential of **Support Vector Machine (SVM)** algorithms to predict periodontal disease likelihood in patients using comprehensive health and lifestyle data. The goal is to identify novel correlations between systemic health factors and periodontal disease risk that could revolutionize preventive dental care.
+This project explores the potential of **Support Vector Machine (SVM)** algorithms to predict dental caries likelihood in patients using comprehensive systemic health data. The goal is to identify novel correlations between systemic health factors and dental caries risk that could revolutionize preventive dental care through early identification of high-risk patients.
 
 *Developed as part of Francisco Barbosa's research into machine learning applications in dental medicine and preventive healthcare.*
 
 ## 🎯 Dental Research Objectives
 
 ### Primary Goals
-- **Predictive Modeling**: Develop an SVM-based classifier to assess periodontal disease risk
-- **Feature Discovery**: Identify previously unrecognized systemic health indicators of periodontal disease
+- **Predictive Modeling**: Develop an SVM-based classifier to assess dental caries risk
+- **Feature Discovery**: Identify previously unrecognized systemic health indicators of dental caries
 - **Clinical Translation**: Create actionable insights for preventive dental care strategies
+- **Novel Biomarker Discovery**: Explore liver function, metabolic, and cardiovascular markers as caries predictors
 
 ### Research Questions
-1. **Which systemic health factors are most predictive of periodontal disease?**
-2. **Can we identify high-risk patients before clinical symptoms appear?**
-3. **What novel correlations exist between metabolic health and periodontal disease?**
-4. **How can this model improve preventive dental care protocols?**
+1. **Which systemic health factors are most predictive of dental caries?**
+2. **Can we identify high-caries-risk patients before clinical symptoms appear?**
+3. **What novel correlations exist between metabolic health and dental caries?**
+4. **How can liver function markers predict oral health outcomes?**
+5. **Can cardiovascular health indicators inform dental prevention strategies?**
 
 ## 📊 Dataset Analysis
 
 ### Dataset: Korean National Health and Nutrition Examination Survey
 - **Size**: 16,708 patients
-- **Features**: 21 health indicators + 1 target variable
+- **Features**: 21 systemic health indicators + 1 target variable
 - **Target**: `dental caries` (binary: 0 = no caries, 1 = caries present)
+- **Prevalence**: 21.1% caries rate (3,522 patients with caries)
 
 ### Feature Categories
 
@@ -72,22 +75,23 @@ This project explores the potential of **Support Vector Machine (SVM)** algorith
 ### Novel Research Opportunities
 
 #### **Metabolic Syndrome Connection**
-- **Hypothesis**: Metabolic markers (glucose, cholesterol, triglycerides) may predict periodontal disease risk
+- **Hypothesis**: Metabolic markers (glucose, cholesterol, triglycerides) may predict dental caries risk
 - **Clinical Impact**: Early identification of patients at risk through routine blood work
 - **Prevention Strategy**: Targeted interventions for patients with metabolic syndrome
 
-#### **Cardiovascular-Periodontal Link**
-- **Hypothesis**: Blood pressure and cardiovascular markers correlate with periodontal health
+#### **Cardiovascular-Dental Link**
+- **Hypothesis**: Blood pressure and cardiovascular markers correlate with dental caries risk
 - **Clinical Impact**: Integration of dental risk assessment into cardiovascular care protocols
 - **Research Value**: Understanding bidirectional relationships between heart and oral health
 
-#### **Liver Function & Oral Health**
-- **Hypothesis**: Liver enzymes (AST, ALT, GTP) may indicate systemic inflammation affecting periodontal health
-- **Clinical Impact**: Novel biomarker discovery for periodontal disease risk
+#### **Liver Function & Oral Health** ⭐ **NOVEL DISCOVERY**
+- **Hypothesis**: Liver enzymes (AST, ALT, GTP) may indicate systemic inflammation affecting dental health
+- **Clinical Impact**: Novel biomarker discovery for dental caries risk prediction
 - **Prevention Strategy**: Monitoring liver function as part of comprehensive oral health assessment
+- **Research Innovation**: First study to explore liver-oral health correlations
 
 #### **Sensory Health Correlation**
-- **Hypothesis**: Vision and hearing impairments may correlate with periodontal disease through shared risk factors
+- **Hypothesis**: Vision and hearing impairments may correlate with dental caries through shared risk factors
 - **Clinical Impact**: Identifying patients with sensory impairments as high-risk groups
 - **Research Value**: Understanding aging-related health deterioration patterns
 
@@ -110,14 +114,16 @@ This project explores the potential of **Support Vector Machine (SVM)** algorith
 ## 📈 Expected Clinical Outcomes
 
 ### Immediate Applications
-1. **Risk Stratification**: Classify patients into low/medium/high periodontal disease risk
-2. **Preventive Protocols**: Develop targeted intervention strategies
-3. **Resource Allocation**: Optimize dental care resources for high-risk patients
+1. **Risk Stratification**: Classify patients into low/medium/high dental caries risk
+2. **Preventive Protocols**: Develop targeted intervention strategies for high-risk patients
+3. **Resource Allocation**: Optimize dental care resources for caries prevention
+4. **Novel Biomarker Integration**: Incorporate liver function markers into dental risk assessment
 
 ### Long-term Research Impact
-1. **Biomarker Discovery**: Identify novel systemic indicators of periodontal disease
+1. **Biomarker Discovery**: Identify novel systemic indicators of dental caries
 2. **Interdisciplinary Care**: Bridge gaps between medical and dental specialties
-3. **Public Health**: Develop population-level screening protocols
+3. **Public Health**: Develop population-level screening protocols for caries prevention
+4. **Clinical Guidelines**: Establish evidence-based preventive care strategies
 
 ## 🛠️ Technical Implementation
 
@@ -182,4 +188,4 @@ Interested in collaborating on dental AI research or have questions about this p
 
 ---
 
-*This project represents an innovative approach to periodontal disease prediction, combining machine learning expertise with clinical dental knowledge to advance preventive oral healthcare. Developed by Francisco Barbosa as part of ongoing research into AI applications in dental medicine.*
+*This project represents an innovative approach to dental caries prediction using systemic health markers, combining machine learning expertise with clinical dental knowledge to advance preventive oral healthcare. Developed by Francisco Barbosa as part of ongoing research into AI applications in dental medicine and novel biomarker discovery.*
