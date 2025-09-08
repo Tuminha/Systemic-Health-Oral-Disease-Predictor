@@ -28,7 +28,8 @@ This project explores the potential of **Support Vector Machine (SVM)** algorith
 
 ## 📊 Dataset Analysis
 
-### Dataset: Korean National Health and Nutrition Examination Survey
+### Dataset: Enfermedad Periodontal Dataset
+- **Source**: [Kaggle Dataset by vernicacastillo](https://www.kaggle.com/datasets/vernicacastillo/enfermedad-periodontal)
 - **Size**: 16,708 patients
 - **Features**: 21 systemic health indicators + 1 target variable
 - **Target**: `dental caries` (binary: 0 = no caries, 1 = caries present)
@@ -130,7 +131,7 @@ This project explores the potential of **Support Vector Machine (SVM)** algorith
 ### Environment Setup
 - **Python 3.11**: Clean conda environment (`periodontal`)
 - **Key Libraries**: scikit-learn, pandas, numpy, matplotlib, seaborn
-- **Data Source**: Kaggle Korean National Health Survey dataset
+- **Data Source**: [Kaggle Enfermedad Periodontal Dataset](https://www.kaggle.com/datasets/vernicacastillo/enfermedad-periodontal)
 
 ### Project Structure
 ```
